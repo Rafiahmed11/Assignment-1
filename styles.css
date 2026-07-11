@@ -140,3 +140,95 @@ nav a{
     color: #666;
     font-size: 15px;
 }
+.pricing{
+    padding: 100px 70px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.pricing h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    color: #666;
+    margin-bottom: 60px;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.price-card{
+    width: 350px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: left;
+    background: white;
+}
+
+.pro{
+    background: #0f172a;
+    color: white;
+}
+
+.plan{
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.price-card h3{
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.person{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.pro .person,.pro .plan{
+    color: #cbd5e1;
+}
+
+.price-card hr{
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.pro hr{
+    border-top: 1px solid #334155;
+}
+
+.price-card ul{
+    padding-left: 18px;
+    margin-bottom: 30px;
+}
+
+.price-card li{
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.price-card button{
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #2563eb;
+    background: white;
+    color: #2563eb;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pro button{
+    background: #2563eb;
+    color: white;
+    border: none;
+}
