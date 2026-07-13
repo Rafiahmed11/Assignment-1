@@ -52,8 +52,7 @@ nav a{
 
 .content{
     position:relative;
-    z-index:10;
-
+    
     text-align:center;
     color:white;
 }
@@ -228,4 +227,50 @@ nav a{
     background: #2563eb;
     color: white;
     border: none;
+}
+.features{
+    padding:100px 70px;
+    text-align:center;
+    background:#f8fafc;
+}
+
+.features h2{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.features>p{
+    color:#64748b;
+    width:700px;
+    max-width:90%;
+    margin:0 auto 60px;
+    line-height:1.7;
+}
+
+.feature-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.feature-card{
+    background:white;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:35px 25px;
+}
+
+.feature-card h3{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.feature-card h4{
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+.feature-card p{
+    color:#64748b;
+    line-height:1.6;
 }
